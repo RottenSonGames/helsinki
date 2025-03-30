@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sub-container {
+  border: 4px solid black;
+  width: 1024px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-container:hover {
+  box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.imgBox {
+  position: relative;
+  width: 100%;
+}
+
+.room-img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 254, 215);
+  border: 6px solid rgb(241, 255, 164);
+  background-color: rgb(255, 178, 90);
+  text-shadow: 2px 2px 4px rgba(139, 126, 96, 0.6); /* Optional, adds some shadow to make text more readable */
+  text-align: center;
+}

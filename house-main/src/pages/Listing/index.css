@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.menu {
+  background-color: darkslateblue;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.sortMenu {
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h5 {
+  border: 4px solid rgb(255, 172, 188);
+}
+
+.black-bg{
+  width: 100%;
+  height: 500px;
+  background: rgba(0,0,0,5);
+  position: fixed;
+  padding: 20px;
+  z-index: 1000;
+
+}
+.white-bg{
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1001;
+}
+
+.modal-img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.room-img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.heart-button {
+  border: none;
+  background-color: transparent;
+}
